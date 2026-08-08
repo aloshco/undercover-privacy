@@ -11,49 +11,88 @@
   .muted { color: #666; font-size: 14px; }
   a { color: #0066cc; }
   code { background: #f4f4f4; padding: 1px 6px; border-radius: 3px; }
+  table { border-collapse: collapse; width: 100%; margin-top: 12px; }
+  th, td { border: 1px solid #ddd; padding: 8px 10px; text-align: left; font-size: 15px; vertical-align: top; }
+  th { background: #f7f7f7; }
 </style>
 </head>
 <body>
 
 <h1>Undercover — Privacy Policy</h1>
-<p class="muted">Last updated: 13 April 2026</p>
+<p class="muted">Last updated: 8 August 2026</p>
 
 <p>This privacy policy explains how the <strong>Undercover</strong> mobile app ("the App", "we") handles information when you use it.</p>
 
-<h2>What We Collect Directly</h2>
-<p>The App is an offline party word game. We do <strong>not</strong> require an account and we do <strong>not</strong> operate any servers that receive your data. All gameplay data (player names, selected settings, game history) is stored only on your device using iOS's standard local storage (<code>UserDefaults</code>) and never leaves your device through us.</p>
+<h2>Summary</h2>
+<p>The App has no accounts, no login, and no user profiles. We never see your player names, the secret words you play with, or who the undercover was — that information stays on your device. The App does send anonymous usage statistics, crash reports and advertising requests to Google, described in detail below.</p>
 
-<h2>Advertising — Google AdMob</h2>
-<p>The App displays advertisements served by <strong>Google AdMob</strong>, a service provided by Google LLC. To deliver ads, AdMob may collect:</p>
+<h2>What Stays on Your Device</h2>
+<p>The following is stored only on your device, using iOS's standard local storage (<code>UserDefaults</code>), and is never transmitted to us or to anyone else:</p>
 <ul>
-  <li>Your device's Advertising Identifier (IDFA) — only if you grant the App tracking permission via Apple's App Tracking Transparency prompt</li>
-  <li>Coarse location (derived from IP address)</li>
-  <li>Device information (device model, OS version, language)</li>
-  <li>Information about your interactions with ads (impressions, clicks)</li>
+  <li>Player names and your saved name history</li>
+  <li>The secret words used in any game, and which player was the undercover</li>
+  <li>Chosen app language and game word language</li>
+  <li>Player count, undercover count, and discussion time preferences</li>
 </ul>
-<p>If you <strong>allow tracking</strong> when prompted, AdMob may use this information to serve you personalized ads and to measure ad performance across apps and websites.</p>
-<p>If you <strong>do not allow tracking</strong>, AdMob serves only non-personalized ads. Limited information (such as approximate location and basic device info) is still used to fulfill ad requests, but it is not used to build a profile of you.</p>
-<p>You can change your tracking choice anytime in <strong>Settings → Privacy & Security → Tracking</strong> on your device.</p>
-<p>For more on Google's privacy practices, see:</p>
+<p>You can remove all of it at any time by deleting the App from your device.</p>
+
+<h2>Third-Party Services We Use</h2>
+<p>The App uses the following services, all provided by <strong>Google LLC</strong>:</p>
+
+<table>
+  <tr><th>Service</th><th>Purpose</th><th>What it collects</th></tr>
+  <tr>
+    <td><strong>Google AdMob</strong></td>
+    <td>Displays the ads that keep the App free</td>
+    <td>Advertising Identifier (IDFA, only with your permission), coarse location derived from IP address, device information, and your interactions with ads</td>
+  </tr>
+  <tr>
+    <td><strong>Google Analytics for Firebase</strong></td>
+    <td>Anonymous usage statistics, so we can see which features are actually used and improve the game</td>
+    <td>A randomly generated app instance identifier, device model, OS version, language and country, and in-app events such as starting or finishing a game, which word category was chosen, and which buttons were tapped</td>
+  </tr>
+  <tr>
+    <td><strong>Firebase Crashlytics</strong></td>
+    <td>Reports crashes so we can fix them</td>
+    <td>Crash diagnostics: device model, OS version, app version, and the technical state of the App at the moment it crashed</td>
+  </tr>
+  <tr>
+    <td><strong>Firebase Remote Config</strong></td>
+    <td>Lets us adjust app settings (such as how often ads appear) without releasing an update</td>
+    <td>Sends a request for the current settings. It does not collect personal information.</td>
+  </tr>
+</table>
+
+<p>None of these services receive your player names, your secret words, or the outcome of any game.</p>
+
+<h2>Advertising and Your Tracking Choice</h2>
+<p>Ads are served by Google AdMob. On first use you will be asked, through Apple's <strong>App Tracking Transparency</strong> prompt, whether the App may access your device's Advertising Identifier.</p>
+<p>If you <strong>allow tracking</strong>, AdMob may use that identifier to serve you personalized ads and to measure ad performance across apps and websites.</p>
+<p>If you <strong>do not allow tracking</strong>, AdMob serves only non-personalized ads. Limited information such as approximate location and basic device details is still used to fulfil ad requests, but it is not used to build a profile of you.</p>
+<p>You can change this choice at any time in <strong>Settings → Privacy &amp; Security → Tracking</strong> on your device.</p>
+
+<h2>If You Are in the EEA, the UK or Switzerland</h2>
+<p>Before any personalised advertising takes place, the App shows a consent message that lets you accept or refuse, and lets you review individual advertising partners. You can reopen that form and change your answer at any time from inside the App: tap the <strong>globe icon</strong> on the home screen, then <strong>Privacy options</strong>.</p>
+<p>Under the GDPR you have the right to access, correct, delete, restrict, or object to the processing of your personal data, and to lodge a complaint with your local data protection authority. Because we hold no personal data ourselves, requests concerning data held by Google should be directed to Google using the links below, or to us at the contact address and we will assist.</p>
+
+<h2>Legal Bases for Processing</h2>
+<ul>
+  <li><strong>Consent</strong> — personalised advertising, and analytics where consent is required</li>
+  <li><strong>Legitimate interests</strong> — crash reporting and basic, non-personalised usage statistics needed to keep the App working and secure</li>
+</ul>
+
+<h2>Data Retention</h2>
+<p>Analytics event data is retained for up to 14 months, after which it is deleted automatically. Crash reports are retained for up to 90 days. Data held by Google as an advertising provider is subject to Google's own retention periods.</p>
+
+<h2>Children's Privacy</h2>
+<p>The App is suitable for general audiences and is not directed specifically at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided personal information, contact us and we will act on it.</p>
+
+<h2>Google's Privacy Information</h2>
 <ul>
   <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a></li>
   <li><a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses information from sites or apps that use its services</a></li>
+  <li><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Privacy and Security in Firebase</a></li>
 </ul>
-
-<h2>Data Stored on Your Device</h2>
-<p>The following items are saved locally on your device only:</p>
-<ul>
-  <li>Chosen app language and game word language</li>
-  <li>Player name history (so previous names can be re-used)</li>
-  <li>Player count, undercover count, and discussion time preferences</li>
-</ul>
-<p>You can remove all of this data at any time by deleting the App from your device.</p>
-
-<h2>Children's Privacy</h2>
-<p>The App is suitable for general audiences and is not directed specifically at children under 13. We do not knowingly collect personal information from any user.</p>
-
-<h2>Your Rights</h2>
-<p>Because we do not collect personal data ourselves, there is nothing for us to access, modify, or delete on your behalf. For data collected by Google AdMob, see Google's privacy controls linked above.</p>
 
 <h2>Changes to This Policy</h2>
 <p>If this policy is updated, the revised version will be posted at this URL with a new "Last updated" date.</p>
